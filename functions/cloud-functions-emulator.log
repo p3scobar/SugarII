@@ -1,0 +1,16 @@
+2018-04-07T20:28:08.144Z - info: User function triggered, starting execution
+2018-04-07T20:28:09.015Z - info: Function crashed
+2018-04-07T20:28:09.017Z - info: TypeError: event.data.data is not a function
+    at exports.pushStatusToTimelines.functions.firestore.document.onCreate.event (/Users/Hello/Desktop/Projects/Devberg/functions/index.js:9:33)
+    at Object.<anonymous> (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:112:27)
+    at next (native)
+    at /Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:28:71
+    at __awaiter (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:24:12)
+    at cloudFunction (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:82:36)
+    at Promise.resolve.then (/Users/Hello/.nvm/versions/node/v6.11.5/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/supervisor/worker.js:148:27)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+2018-04-07T20:28:09.029Z - info: Worker for pushStatusToTimelines closed due to file changes.
+2018-04-07T20:28:51.181Z - info: User function triggered, starting execution
+2018-04-07T20:28:52.048Z - error: Function returned undefined, expected Promise or value
+2018-04-07T20:28:52.054Z - info: Execution took 873 ms, user function completed successfully
+2018-04-07T20:28:58.702Z - error: Function worker killed by signal: SIGTERM

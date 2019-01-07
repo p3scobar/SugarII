@@ -1,0 +1,6 @@
+framework module Pods_sugarDev {
+  umbrella header "Pods-sugarDev-umbrella.h"
+
+  export *
+  module * { export * }
+}

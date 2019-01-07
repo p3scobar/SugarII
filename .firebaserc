@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "sugar",
+    "dev": "sug-3r"
+  }
+}

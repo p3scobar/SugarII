@@ -1,0 +1,238 @@
+2018-04-07T20:37:07.608Z - info: User function triggered, starting execution
+2018-04-07T20:37:08.522Z - info: Function crashed
+2018-04-07T20:37:08.524Z - info: TypeError: followersRef.getCollections is not a function
+    at exports.pushStatusToTimelines.functions.firestore.document.onCreate.event (/Users/Hello/Desktop/Projects/Devberg/functions/index.js:15:36)
+    at Object.<anonymous> (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:112:27)
+    at next (native)
+    at /Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:28:71
+    at __awaiter (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:24:12)
+    at cloudFunction (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:82:36)
+    at Promise.resolve.then (/Users/Hello/.nvm/versions/node/v6.11.5/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/supervisor/worker.js:148:27)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+2018-04-07T20:37:22.192Z - info: Worker for pushStatusToTimelines closed due to file changes.
+2018-04-07T20:37:44.758Z - error: /Users/Hello/Desktop/Projects/Devberg/functions/index.js:16
+        .then(collections => {
+        ^
+
+SyntaxError: Unexpected token .
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at process.on.e (/Users/Hello/.nvm/versions/node/v6.11.5/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/supervisor/worker.js:76:28)
+2018-04-07T20:37:44.780Z - error: Function worker crashed with exit code: 1
+2018-04-07T20:40:01.300Z - info: User function triggered, starting execution
+2018-04-07T20:40:01.893Z - info: Function crashed
+2018-04-07T20:40:01.895Z - info: TypeError: followersRef.getCollections is not a function
+    at exports.pushStatusToTimelines.functions.firestore.document.onCreate.event (/Users/Hello/Desktop/Projects/Devberg/functions/index.js:15:20)
+    at Object.<anonymous> (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:112:27)
+    at next (native)
+    at /Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:28:71
+    at __awaiter (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:24:12)
+    at cloudFunction (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:82:36)
+    at Promise.resolve.then (/Users/Hello/.nvm/versions/node/v6.11.5/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/supervisor/worker.js:148:27)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+2018-04-07T20:41:12.937Z - info: User function triggered, starting execution
+2018-04-07T20:41:13.562Z - info: Function crashed
+2018-04-07T20:41:13.564Z - info: Error: Argument "collectionPath" must point to a collection, but was "users/userId". Your path does not contain an odd number of components.
+    at Firestore.collection (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/@google-cloud/firestore/src/index.js:300:13)
+    at exports.pushStatusToTimelines.functions.firestore.document.onCreate.event (/Users/Hello/Desktop/Projects/Devberg/functions/index.js:13:29)
+    at Object.<anonymous> (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:112:27)
+    at next (native)
+    at /Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:28:71
+    at __awaiter (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:24:12)
+    at cloudFunction (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:82:36)
+    at Promise.resolve.then (/Users/Hello/.nvm/versions/node/v6.11.5/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/supervisor/worker.js:148:27)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+2018-04-07T20:43:39.496Z - info: User function triggered, starting execution
+2018-04-07T20:43:40.363Z - info: Function crashed
+2018-04-07T20:43:40.365Z - info: Error: Argument "collectionPath" must point to a collection, but was "users/{userId}". Your path does not contain an odd number of components.
+    at Firestore.collection (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/@google-cloud/firestore/src/index.js:300:13)
+    at exports.pushStatusToTimelines.functions.firestore.document.onCreate.event (/Users/Hello/Desktop/Projects/Devberg/functions/index.js:13:29)
+    at Object.<anonymous> (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:112:27)
+    at next (native)
+    at /Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:28:71
+    at __awaiter (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:24:12)
+    at cloudFunction (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:82:36)
+    at Promise.resolve.then (/Users/Hello/.nvm/versions/node/v6.11.5/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/supervisor/worker.js:148:27)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+2018-04-07T20:44:58.932Z - info: User function triggered, starting execution
+2018-04-07T20:44:59.810Z - info: Function crashed
+2018-04-07T20:44:59.812Z - info: TypeError: followersRef.getCollections is not a function
+    at exports.pushStatusToTimelines.functions.firestore.document.onCreate.event (/Users/Hello/Desktop/Projects/Devberg/functions/index.js:15:20)
+    at Object.<anonymous> (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:112:27)
+    at next (native)
+    at /Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:28:71
+    at __awaiter (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:24:12)
+    at cloudFunction (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:82:36)
+    at Promise.resolve.then (/Users/Hello/.nvm/versions/node/v6.11.5/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/supervisor/worker.js:148:27)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+2018-04-07T20:46:29.605Z - info: User function triggered, starting execution
+2018-04-07T20:46:30.385Z - info: Function crashed
+2018-04-07T20:46:30.387Z - info: TypeError: followersRef.getCollections is not a function
+    at exports.pushStatusToTimelines.functions.firestore.document.onCreate.event (/Users/Hello/Desktop/Projects/Devberg/functions/index.js:15:20)
+    at Object.<anonymous> (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:112:27)
+    at next (native)
+    at /Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:28:71
+    at __awaiter (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:24:12)
+    at cloudFunction (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:82:36)
+    at Promise.resolve.then (/Users/Hello/.nvm/versions/node/v6.11.5/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/supervisor/worker.js:148:27)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+2018-04-07T20:46:54.418Z - info: User function triggered, starting execution
+2018-04-07T20:46:55.026Z - info: Function crashed
+2018-04-07T20:46:55.027Z - info: TypeError: followersRef.getCollections is not a function
+    at exports.pushStatusToTimelines.functions.firestore.document.onCreate.event (/Users/Hello/Desktop/Projects/Devberg/functions/index.js:15:20)
+    at Object.<anonymous> (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:112:27)
+    at next (native)
+    at /Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:28:71
+    at __awaiter (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:24:12)
+    at cloudFunction (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:82:36)
+    at Promise.resolve.then (/Users/Hello/.nvm/versions/node/v6.11.5/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/supervisor/worker.js:148:27)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+2018-04-07T20:47:11.251Z - error: /Users/Hello/Desktop/Projects/Devberg/functions/index.js:16
+       .then(collections => {
+       ^
+
+SyntaxError: Unexpected token .
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at process.on.e (/Users/Hello/.nvm/versions/node/v6.11.5/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/supervisor/worker.js:76:28)
+2018-04-07T20:47:11.272Z - error: Function worker crashed with exit code: 1
+2018-04-07T20:48:13.274Z - info: User function triggered, starting execution
+2018-04-07T20:48:14.147Z - info: Function crashed
+2018-04-07T20:48:14.149Z - info: TypeError: followersRef.getCollections is not a function
+    at exports.pushStatusToTimelines.functions.firestore.document.onCreate.event (/Users/Hello/Desktop/Projects/Devberg/functions/index.js:15:20)
+    at Object.<anonymous> (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:112:27)
+    at next (native)
+    at /Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:28:71
+    at __awaiter (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:24:12)
+    at cloudFunction (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:82:36)
+    at Promise.resolve.then (/Users/Hello/.nvm/versions/node/v6.11.5/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/supervisor/worker.js:148:27)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+2018-04-07T20:48:35.859Z - info: Worker for pushStatusToTimelines closed due to file changes.
+2018-04-07T20:48:39.838Z - info: User function triggered, starting execution
+2018-04-07T20:48:40.676Z - info: Function crashed
+2018-04-07T20:48:40.678Z - info: TypeError: followersRef.getCollections is not a function
+    at exports.pushStatusToTimelines.functions.firestore.document.onCreate.event (/Users/Hello/Desktop/Projects/Devberg/functions/index.js:15:20)
+    at Object.<anonymous> (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:112:27)
+    at next (native)
+    at /Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:28:71
+    at __awaiter (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:24:12)
+    at cloudFunction (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:82:36)
+    at Promise.resolve.then (/Users/Hello/.nvm/versions/node/v6.11.5/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/supervisor/worker.js:148:27)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+2018-04-07T20:50:57.195Z - info: User function triggered, starting execution
+2018-04-07T20:50:58.060Z - info: Function crashed
+2018-04-07T20:50:58.062Z - info: Error: Argument "documentPath" is not a valid ResourcePath. Path must be a non-empty string.
+    at Object.exports.(anonymous function) [as isResourcePath] (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/@google-cloud/firestore/src/validate.js:86:15)
+    at CollectionReference.doc (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/@google-cloud/firestore/src/reference.js:2117:16)
+    at exports.pushStatusToTimelines.functions.firestore.document.onCreate.event (/Users/Hello/Desktop/Projects/Devberg/functions/index.js:13:49)
+    at Object.<anonymous> (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:112:27)
+    at next (native)
+    at /Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:28:71
+    at __awaiter (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:24:12)
+    at cloudFunction (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:82:36)
+    at Promise.resolve.then (/Users/Hello/.nvm/versions/node/v6.11.5/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/supervisor/worker.js:148:27)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+2018-04-08T02:16:34.212Z - info: User function triggered, starting execution
+2018-04-08T02:16:35.146Z - info: Function crashed
+2018-04-08T02:16:35.148Z - info: Error: Argument "documentPath" is not a valid ResourcePath. Path must be a non-empty string.
+    at Object.exports.(anonymous function) [as isResourcePath] (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/@google-cloud/firestore/src/validate.js:86:15)
+    at CollectionReference.doc (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/@google-cloud/firestore/src/reference.js:2117:16)
+    at exports.pushStatusToTimelines.functions.firestore.document.onCreate.event (/Users/Hello/Desktop/Projects/Devberg/functions/index.js:14:49)
+    at Object.<anonymous> (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:112:27)
+    at next (native)
+    at /Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:28:71
+    at __awaiter (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:24:12)
+    at cloudFunction (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:82:36)
+    at Promise.resolve.then (/Users/Hello/.nvm/versions/node/v6.11.5/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/supervisor/worker.js:148:27)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+2018-04-08T02:29:09.024Z - error: /Users/Hello/Desktop/Projects/Devberg/functions/index.js:23
+            timelineRef.setData(status { err in
+                                ^^^^^^
+
+SyntaxError: missing ) after argument list
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at process.on.e (/Users/Hello/.nvm/versions/node/v6.11.5/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/supervisor/worker.js:76:28)
+2018-04-08T02:29:09.042Z - error: Function worker crashed with exit code: 1
+2018-04-08T02:30:18.962Z - error: /Users/Hello/Desktop/Projects/Devberg/functions/index.js:37
+});
+  ^
+
+SyntaxError: Unexpected end of input
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at process.on.e (/Users/Hello/.nvm/versions/node/v6.11.5/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/supervisor/worker.js:76:28)
+2018-04-08T02:30:18.982Z - error: Function worker crashed with exit code: 1
+2018-04-08T02:31:22.724Z - error: /Users/Hello/Desktop/Projects/Devberg/functions/index.js:37
+});
+  ^
+
+SyntaxError: Unexpected end of input
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at process.on.e (/Users/Hello/.nvm/versions/node/v6.11.5/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/supervisor/worker.js:76:28)
+2018-04-08T02:31:22.744Z - error: Function worker crashed with exit code: 1
+2018-04-08T02:31:52.501Z - error: /Users/Hello/Desktop/Projects/Devberg/functions/index.js:26
+        .catch(err => {
+        ^
+
+SyntaxError: Unexpected token .
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at process.on.e (/Users/Hello/.nvm/versions/node/v6.11.5/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/supervisor/worker.js:76:28)
+2018-04-08T02:31:52.523Z - error: Function worker crashed with exit code: 1
+2018-04-08T02:35:03.047Z - info: User function triggered, starting execution
+2018-04-08T02:35:03.937Z - info: Function crashed
+2018-04-08T02:35:03.939Z - info: Error: Argument "documentPath" is not a valid ResourcePath. Path must be a non-empty string.
+    at Object.exports.(anonymous function) [as isResourcePath] (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/@google-cloud/firestore/src/validate.js:86:15)
+    at CollectionReference.doc (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/@google-cloud/firestore/src/reference.js:2117:16)
+    at exports.pushStatusToTimelines.functions.firestore.document.onCreate.event (/Users/Hello/Desktop/Projects/Devberg/functions/index.js:14:49)
+    at Object.<anonymous> (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:112:27)
+    at next (native)
+    at /Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:28:71
+    at __awaiter (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:24:12)
+    at cloudFunction (/Users/Hello/Desktop/Projects/Devberg/functions/node_modules/firebase-functions/lib/cloud-functions.js:82:36)
+    at Promise.resolve.then (/Users/Hello/.nvm/versions/node/v6.11.5/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/supervisor/worker.js:148:27)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
